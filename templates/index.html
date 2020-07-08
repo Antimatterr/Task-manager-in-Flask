@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TODO.LIST</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2 style="margin-left:390px; margin-bottom:20px;margin-top:30px">TODO LIST</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Sno.</th>
+        <th>Date</th>
+        <th>Task</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+        {% for task in tasks %}
+      <tr>
+        <td>{{ task.sno}}</td>
+        <td>{{ task.date }}</td>
+        <td>{{ task.task }}</td>
+        <td>
+          <a href="/delete/{{task.sno}}"><button class="btn btn-primary">Delete</button></a>
+          <a href="/update/{{task.sno}}"><button class="btn btn-primary">Update</button></a>
+        </td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+  <hr>
+  <form class="container" action="/" method="post">
+  <input type="text" name="task" placeholder="Enter your task">
+  <input class="btn btn-primary" name="submit" type="submit">
+    </form>
+</div>
+
+</body>
+</html>
