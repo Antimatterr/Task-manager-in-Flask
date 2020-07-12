@@ -1,6 +1,6 @@
 {
   "params": {
-    "local_uri": "mysql://root:@lotcalhost/todolis",
+    "local_uri": "mysql://root:@localhost/todolist",
     "prod_uri": "mysql://root:@localhost/todolist"
   }
 }

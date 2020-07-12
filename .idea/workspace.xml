@@ -32,6 +32,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WiSe-PAge" />
   </component>
   <component name="RunManager">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -91,25 +92,29 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1594200196001" />
-    <state width="1515" height="350" key="GridCell.Tab.0.bottom" timestamp="1594198733817">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1594223343804">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="350" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594198733817" />
-    <state width="1515" height="350" key="GridCell.Tab.0.center" timestamp="1594198733817">
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594223343804" />
+    <state width="1515" height="271" key="GridCell.Tab.0.bottom" timestamp="1594207829128">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="350" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594198733817" />
-    <state width="1515" height="350" key="GridCell.Tab.0.left" timestamp="1594198733817">
+    <state width="1515" height="271" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594207829128" />
+    <state width="1515" height="271" key="GridCell.Tab.0.center" timestamp="1594207829128">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="350" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594198733817" />
-    <state width="1515" height="350" key="GridCell.Tab.0.right" timestamp="1594198733817">
+    <state width="1515" height="271" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594207829128" />
+    <state width="1515" height="271" key="GridCell.Tab.0.left" timestamp="1594207829127">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="350" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594198733817" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1594188051951">
+    <state width="1515" height="271" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594207829127" />
+    <state width="1515" height="271" key="GridCell.Tab.0.right" timestamp="1594207829128">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594188051951" />
+    <state width="1515" height="271" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594207829128" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1594223313023">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1594223313023" />
   </component>
 </project>

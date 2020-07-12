@@ -9,7 +9,8 @@ with open("config.json", "r") as c:
 local_server = True
 app = Flask(__name__)
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
+if local_server:
+    app.config['SQLALCHEMY_DATABASE_URI'] = params['local_uri']
 db = SQLAlchemy(app)
 
 
